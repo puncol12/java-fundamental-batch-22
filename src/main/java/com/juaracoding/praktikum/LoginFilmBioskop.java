@@ -21,12 +21,10 @@ public class LoginFilmBioskop {
         Scanner input1 = new Scanner(System.in);
         System.out.print("Masukkan Username : ");
         String usernameMasukkan = input1.next();
-        if (!validasiUsername(usernameMasukkan)) {
-            jumlahPercobaan++;
-            System.out.println("Username salah. Coba lagi!!");
-            isBlocked = cekJumlahPercobaan("Username", jumlahPercobaan);
-            inputUsername();
-        }
+            if (!validasiUsername(usernameMasukkan)) {
+                System.out.println("Username salah. Coba lagi!!");
+                inputUsername();
+            }
     }
     public void inputPassword() {
         if (isBlocked) {
