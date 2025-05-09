@@ -20,6 +20,8 @@ public class MenuUtamaFilmBioskop {
             switch (pilihan) {
                 case '1':
                     System.out.println("Anda memilih Pilihan 1.");
+                    DaftarFilmBioskop dfb = new DaftarFilmBioskop();
+                    dfb.daftarFilm();
                     break;
                 case '2':
                     System.out.println("Anda memilih Pilihan 2.");
