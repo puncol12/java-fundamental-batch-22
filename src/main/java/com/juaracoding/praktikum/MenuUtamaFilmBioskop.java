@@ -7,7 +7,6 @@ public class MenuUtamaFilmBioskop {
         Scanner input = new Scanner(System.in);
         char pilihan; // Variabel untuk menyimpan pilihan menu
 
-        // Menggunakan do-while agar menu tetap tampil sampai pengguna memilih keluar
         do {
             System.out.println("Menu:");
             System.out.println("1. Tampilkan Daftar Film");
