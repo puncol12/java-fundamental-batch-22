@@ -1,4 +1,4 @@
-package com.juaracoding.praktikum;
+package com.juaracoding.praktikumpertama;
 
 import java.util.Scanner;
 
