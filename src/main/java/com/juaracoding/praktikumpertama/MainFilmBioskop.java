@@ -1,4 +1,4 @@
-package com.juaracoding.praktikum;
+package com.juaracoding.praktikumpertama;
 
 public class MainFilmBioskop {
     public static void main(String[] args) {
